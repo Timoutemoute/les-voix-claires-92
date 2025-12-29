@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Témoignages - Les Voix Claires</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <img src="Logo.png" alt="Les Voix Claires">
+        <div class="nav-links">
+            <a href="index.html">Accueil</a>
+            <a href="urgence.html">Urgences</a>
+            <a href="equipe.html">Notre équipe</a>
+            <a href="temoignages.html">Témoignages</a>
+            <a href="mentions-legales.html">Mentions légales</a>
+            <a href="cgu.html">CGU</a>
+            <a href="confidentialite.html">Confidentialité</a>
+            <div class="theme-switch" onclick="toggleTheme()">
+                <span id="themeIcon">🌙</span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-content">
+            <h1>Témoignages</h1>
+            <p class="intro-text">Des parcours de reconstruction et d'espoir. Partager son expérience peut être une étape importante dans le processus de reconstruction. Ces témoignages anonymisés montrent que vous n'êtes pas seul(e) et qu'il est possible de s'en sortir.</p>
+            
+            <div class="cards">
+                <div class="card">
+                    <div class="testimonial-content">
+                        <p>"Après des mois de harcèlement au travail, j'ai contacté Les Voix Claires. Leur écoute et leur accompagnement m'ont permis de retrouver confiance et de mener les démarches nécessaires. Aujourd'hui, je me reconstruis."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <span>Marie, 34 ans (témoignage fictif)</span>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="testimonial-content">
+                        <p>"Le cyberharcèlement que subissait ma fille avait détruit son estime d'elle-même. Grâce à l'équipe, nous avons trouvé des solutions et elle a repris goût à la vie. Merci pour votre soutien précieux."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <span>Parent d'une adolescente (témoignage fictif)</span>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="testimonial-content">
+                        <p>"En tant que témoin de harcèlement scolaire, je ne savais pas comment réagir. L'association m'a guidé vers les bonnes démarches et m'a aidé à soutenir ma camarade sans me mettre en danger."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <span>Lucas, 16 ans (témoignage fictif)</span>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="testimonial-content">
+                        <p>"Le soutien psychologique m'a sauvé la vie. Je me sentais seule et incomprise. Aujourd'hui, je participe même à des groupes de parole pour aider d'autres personnes."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <span>Sophie, 28 ans (témoignage fictif)</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-cta card-section" style="margin-top: 60px;">
+                <h2>Partager votre expérience</h2>
+                <p>Votre témoignage anonyme peut aider d'autres personnes. Si vous souhaitez partager votre histoire, contactez-nous.</p>
+                <a href="mailto:les.voix.claires.92@gmail.com" class="submit" style="display: inline-block; text-decoration: none; text-align: center; margin-top: 20px;">
+                    Nous contacter
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        © 2025 Les Voix Claires 92 – Association contre le harcèlement
+    </footer>
+
+    <script>
+        function toggleTheme() {
+            document.body.classList.toggle("light");
+            document.getElementById("themeIcon").textContent =
+                document.body.classList.contains("light") ? "☀️" : "🌙";
+        }
+    </script>
+</body>
+</html>

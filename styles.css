@@ -360,3 +360,44 @@ footer {
         font-size: 1.6rem;
     }
 }
+
+/* ===== TÉMOIGNAGES ===== */
+.intro-text {
+    font-size: 1.1rem;
+    color: var(--gray);
+    line-height: 1.8;
+    margin-bottom: 40px;
+    max-width: 800px;
+}
+
+.testimonial-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text);
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.testimonial-author {
+    font-size: 0.95rem;
+    color: var(--gray);
+    font-weight: 600;
+    text-align: right;
+    border-top: 1px solid var(--border);
+    padding-top: 15px;
+}
+
+.testimonial-cta {
+    text-align: center;
+    padding: 40px;
+}
+
+.testimonial-cta h2 {
+    margin-bottom: 20px;
+}
+
+.testimonial-cta p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
