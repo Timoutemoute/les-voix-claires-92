@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urgence</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Logo.png">
+</head>
+<body>
+    <nav>
+        <img src="Logo.png" alt="Les Voix Claires">
+        <div class="nav-links">
+            <a href="index.html">Accueil</a>
+            <a href="urgence.html">Urgences</a>
+            <a href="equipe.html">Notre équipe</a>
+            <a href="mentions-legales.html">Mentions légales</a>
+            <a href="cgu.html">CGU</a>
+            <a href="confidentialite.html">Confidentialité</a>
+            <div class="theme-switch" onclick="toggleTheme()">
+                <span id="themeIcon">🌙</span>
+            </div>
+        </div>
+    </nav>
+
+<section>
+    <h1>Numéros d'Urgence</h1>
+
+    <div class="card-section">
+        <h2>📞 URGENCES VITALES</h2>
+        <ul>
+            <li>112 – Numéro d’urgence européen (police, pompiers, ambulance)</li>
+            <li>15 – SAMU (urgence médicale)</li>
+            <li>17 – Police secours</li>
+            <li>18 – Pompiers</li>
+            <li>114 – Urgences par SMS (sourds/malentendants)</li>
+        </ul>
+    </div>
+
+    <div class="card-section">
+        <h2>🚑 SANTÉ & PSYCHOLOGIE</h2>
+        <ul>
+            <li>3114 – Prévention suicide (24h/24)</li>
+            <li>0 800 130 000 – Cellule psychologique (crises majeures)</li>
+            <li>116 117 – Médecin de garde (hors urgence vitale)</li>
+            <li>0 800 235 236 – Alcool info service</li>
+            <li>0 800 23 13 13 – Cannabis info service</li>
+            <li>0 800 840 800 – Tabac info service</li>
+            <li>0 800 858 858 – SOS Suicide</li>
+        </ul>
+    </div>
+
+    <div class="card-section">
+        <h2>🧒 ENFANTS / ENLÈVEMENTS / VIOLENCES</h2>
+        <ul>
+            <li>119 – Allô Enfance en Danger</li>
+            <li>116 000 – Enfants disparus / enlèvements</li>
+            <li>3919 – Violences conjugales</li>
+            <li>3018 – Harcèlement scolaire</li>
+            <li>0 805 802 804 – Violences sexuelles</li>
+            <li>0 800 05 95 95 – Enfance & violences sexuelles</li>
+        </ul>
+    </div>
+
+    <div class="card-section">
+        <h2>🌊 CATASTROPHES / RISQUES / INONDATIONS</h2>
+        <ul>
+            <li>112 – Urgence européenne (catastrophes, inondations)</li>
+            <li>18 – Pompiers (inondations, feux, accidents)</li>
+            <li>196 – Secours en mer</li>
+            <li>191 – Urgences aéronautiques</li>
+            <li>0 800 100 200 – Info Sécurité Civile (selon situations)</li>
+        </ul>
+    </div>
+
+    <div class="card-section">
+        <h2>🏠 SITUATIONS SOCIALES & AIDE</h2>
+        <ul>
+            <li>115 – Hébergement d’urgence</li>
+            <li>116 006 – Aide aux victimes</li>
+            <li>0 800 360 360 – Handicap / situations complexes</li>
+            <li>0 800 47 47 47 – Drogues info service</li>
+            <li>0 810 004 333 – Info escroqueries</li>
+        </ul>
+    </div>
+
+    <div class="card-section">
+        <h2>📋 ADMINISTRATION & INFOS</h2>
+        <ul>
+            <li>3939 – Service public (infos administratives)</li>
+            <li>0 800 006 006 – Aide aux victimes (numéro national)</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    © 2025 Les Voix Claires 92 – Association contre le harcèlement
+</footer>
+
+<script>
+function toggleTheme() {
+    document.body.classList.toggle("light");
+    document.getElementById("themeIcon").textContent =
+        document.body.classList.contains("light") ? "☀️" : "🌙";
+}
+</script>
+
+</body>
+</html>
