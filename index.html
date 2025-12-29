@@ -28,7 +28,7 @@
     <div class="hero">
         <h1>Ton problème, c'est notre problème <br><span>avec Les Voix Claires 92</span></h1>
         <p>Une association engagée pour soutenir et protéger les victimes de harcèlement.</p>
-        <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+        <button onclick="openEmailClient()">
             Nous contacter
         </button>
     </div>
@@ -66,28 +66,10 @@
         <a href="https://discord.gg/dT24UwdK" target="_blank">Rejoindre le Discord</a>
     </div>
 
-<!--     <section id="contact">
-        <h2>Contact</h2>
-        <form action="mailto:les.voix.claires.92@gmail.com" method="post" enctype="text/plain">
-            <input type="text" placeholder="Votre nom" required>
-            <input type="email" placeholder="Votre email" required>
-            <textarea rows="6" placeholder="Votre message" required></textarea>
-            <button class="submit" type="submit">Envoyer</button>
-        </form>
-    </section> -->
-
     <footer>
         © 2025 Les Voix Claires 92 – Association contre le harcèlement
     </footer>
 
-    <script>
-        window.addEventListener("load", () => { window.scrollTo(0,0); });
-        
-        function toggleTheme() {
-            document.body.classList.toggle("light");
-            document.getElementById("themeIcon").textContent =
-                document.body.classList.contains("light") ? "☀️" : "🌙";
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
